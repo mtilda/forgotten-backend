@@ -21,9 +21,9 @@ Tracking app for items/money you've lent with the ability to upload images.
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [Mobile](https://res.cloudinary.com/dgbf3yxnd/image/upload/v1593180055/GA%20-%20Project%202/IMG_0332_k20fjj.jpg)
-- [Desktop](https://res.cloudinary.com/dgbf3yxnd/image/upload/v1593180150/GA%20-%20Project%202/IMG_0333_gdyvph.jpg)
-- [React Architecture](https://res.cloudinary.com/dgbf3yxnd/image/upload/v1593182351/GA%20-%20Project%202/image0_trqvac.jpg)
+- [Mobile](https://res.cloudinary.com/dpn6ltns1/image/upload/v1595017437/Project%203/Screenshot_from_2020-07-17_16-21-51_bohmdt.png)
+- 
+- [React Architecture](https://res.cloudinary.com/dpn6ltns1/image/upload/v1595017445/Project%203/Screenshot_from_2020-07-17_16-21-22_frymj8.png)
 
 ### MVP/PostMVP - 5min
 
