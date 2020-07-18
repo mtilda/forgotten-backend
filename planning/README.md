@@ -13,7 +13,7 @@ Tracking app for items/money you've lent with the ability to upload images.
 
 - As a user, I should be able to track items/money I've lent to others
 - As a user, I should be able to receive reminders about the items/money I've lent
-- As a user, I should be able to ask another user for my items/money back (post MVP)
+- As a user, I should be able to ask another user for my items/money back (Note* post MVP/strike)
 
 ## API
 
@@ -60,6 +60,8 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ## Components
 
+*Note add components list
+
 ##### Time Frames
 
 Time frames are also key in the development cycle. You have limited time to code all phases of the game. Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
@@ -85,7 +87,7 @@ POST MVP
 ## Additional Libraries
 
 Bootstrap
-Challenge ourselves with new library - suggestion React Native, Expo is a phone emulator
+Note* Challenge ourselves with new library - suggestion React Native, Expo is a phone emulator
 
 ## Code Snippet
 
