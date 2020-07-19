@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const parser = require("body-parser");
-const transactionController = require("./controllers/transaction");
+const transactionController = require("./controllers/transactions");
 const usersController = require("./controllers/users");
 
 app.use(cors());
