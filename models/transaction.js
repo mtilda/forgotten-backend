@@ -1,4 +1,6 @@
 const mongoose = require('../db/connection');
+const { Schema } = require('../db/connection');
+const User = require('./user');
 
 const transactionSchema = new mongoose.Schema(
     {
@@ -11,11 +13,11 @@ const transactionSchema = new mongoose.Schema(
         lenderName: String,
         borrowerID: String,
         borrowerName: String,
-        creator: { type: String, required: true }
+        creator: { type: Schema.Types.ObjectId, ref: User }
     },
     { timestamps: true}
 )
 
-const Transaction = mongoose.model('Transaction', transactionSchema)
+const Transaction = mongoose.model('transaction', transactionSchema)
 
 module.exports = Transaction
