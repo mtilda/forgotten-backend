@@ -13,7 +13,7 @@ Tracking app for items/money you've lent with the ability to upload images.
 
 - As a user, I should be able to track items/money I've lent to others
 - As a user, I should be able to receive reminders about the items/money I've lent
-- As a user, I should be able to ask another user for my items/money back
+- As a user, I should be able to ask another user for my items/money back (Note* post MVP/strike)
 
 ## API
 
@@ -22,7 +22,9 @@ Tracking app for items/money you've lent with the ability to upload images.
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
 - [Mobile](https://res.cloudinary.com/dpn6ltns1/image/upload/v1595017437/Project%203/Screenshot_from_2020-07-17_16-21-51_bohmdt.png)
-- 
+Note* condense the nav links into the hamburger button. Remove the Create Post and use a Icon 'plus'
+
+- [Tablet - Desktop] This is a must
 - [React Architecture](https://res.cloudinary.com/dpn6ltns1/image/upload/v1595017445/Project%203/Screenshot_from_2020-07-17_16-21-22_frymj8.png)
 
 ### MVP/PostMVP - 5min
@@ -54,9 +56,11 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 - Link post to the borrower's account
 - Privacy settings
-- Image upload
+- Image upload - check out Qapital as a potential guide
 
 ## Components
+
+*Note add components list
 
 ##### Time Frames
 
@@ -83,14 +87,12 @@ POST MVP
 ## Additional Libraries
 
 Bootstrap
+Note* Challenge ourselves with new library - suggestion React Native, Expo is a phone emulator
 
 ## Code Snippet
 
 Used .filter to grab the correct image when an artist is selected.
 
 ```
- <img className="compPic"
-    src={artistPicsUrls.filter((url) => url.name === comps[1].name)[0].url}
-    alt={comps[1].name}
-/>
+
 ```
