@@ -1,4 +1,5 @@
-const db = require('../db')
+const mongoose = require('../db/connection')
+const db = mongoose.connection
 const User = require('../models/user')
 const Transaction = require('../models/transaction')
 
