@@ -20,6 +20,17 @@ router.get("/transaction/:id", (req, res) => {
   });
 });
 
+// find transaction by user ID, borrower or lender
+router.get("/transaction/user/:id", (req, res) => {
+  Transaction.find(
+    { $or: [{ lenderID: req.params.id }, { borrowerID: req.params.id }] },
+    (err, transaction) => {
+      if (err) console.log(err);
+      else res.send(transaction);
+    }
+  );
+});
+
 // update transaction by ID
 router.put("/transaction/:id", (req, res) => {
   Transaction.findByIdAndUpdate(

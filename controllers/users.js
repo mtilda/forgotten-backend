@@ -18,6 +18,14 @@ router.get("/user/:id", (req, res) => {
   });
 });
 
+// find user by handle
+router.get("/user/handle/:handle", (req, res) => {
+  User.find({ handle: req.params.handle }, (err, user) => {
+    if (err) console.log(err);
+    else res.send(user);
+  });
+});
+
 // update user by ID
 router.put("/user/:id", (req, res) => {
   User.findByIdAndUpdate(
