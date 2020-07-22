@@ -76,7 +76,7 @@ const main = async () => {
       lenderName: user1.name,
       borrowerID: user3._id,
       borrowerName: user3.name,
-      creator: user2._id,
+      creator: user3._id,
     },
     {
       name: "beach house",
