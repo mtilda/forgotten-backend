@@ -39,7 +39,7 @@ const main = async () => {
       lenderID: user2._id,
       lenderName: user2.name,
       borrowerID: user1._id,
-      borrowerName: user1._name,
+      borrowerName: user1.name,
       creator: user1._id,
     },
     {
