@@ -32,7 +32,7 @@ const main = async () => {
   const transactions = [
     {
       name: "Frisbee",
-      icon: "frisbee",
+      icon: "grin-beam",
       value: 5,
       transactionDate: 2020 - 01 - 30,
       returnDate: 2020 - 08 - 18,
@@ -44,7 +44,7 @@ const main = async () => {
     },
     {
       name: "Ducati",
-      icon: "motorcycle",
+      icon: "glass-cheers",
       value: 50000,
       transactionDate: 2020 - 03 - 08,
       returnDate: 2020 - 12 - 25,
@@ -68,6 +68,7 @@ const main = async () => {
     },
     {
       name: "Laptop",
+
       icon: "laptop",
       value: 2000,
       transactionDate: 2020 - 04 - 26,
@@ -80,7 +81,7 @@ const main = async () => {
     },
     {
       name: "beach house",
-      icon: "home",
+      icon: "sad-cry",
       value: 500000,
       transactionDate: 2020 - 06 - 17,
       returnDate: 2030 - 12 - 31,
