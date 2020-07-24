@@ -26,4 +26,4 @@ forgotten handle: `@mxkay`
 
 Passion: Programming, math, tabletop games
 
-Project Contribution: Git Queen, SCRUM Leader, Frontend developement, I put the CUD in CRUD
+Project Contribution: Git Queen, SCRUM Leader, Frontend developement, I put the CUD in CRUD (created NewPost, EditPost, PostForm)
