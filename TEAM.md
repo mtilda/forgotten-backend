@@ -4,12 +4,10 @@
 
 forgotten handle: `@wt08`
 
-![Photo of Will Tidwell](https://res.cloudinary.com/dgbf3yxnd/image/upload/v1595607949/IMG_0255_atf9bs.jpg | width=100)
+![Photo of Will Tidwell](https://res.cloudinary.com/dgbf3yxnd/image/upload/v1595617181/IMG_0255_kdx0hb.jpg)
 
 Passion: Debugging, linking backend, and surfing
 Project Contribution: setting up API, linking backend to React Native App, working on login page, icon scroller, and forms.
-
-
 
 ## Tyrone Pugh
 
@@ -18,7 +16,7 @@ Project Contribution: setting up API, linking backend to React Native App, worki
 Passion: Long walks on beach, reading and going out to dinner.
 Project Contribution: setting up API, linking backend to React Native App, Database models, deploying the database, post Crud funcationality, minor styling and debugging.
 
-## Mohammad 
+## Mohammad
 
 forgotten handle: `@thedr`
 
@@ -31,10 +29,8 @@ Project Contribution: Header Design, Navigation Menu, Post Layout, Login Design,
 
 forgotten handle: `@mxkay`
 
-
 ![Photo of Kay](https://res.cloudinary.com/dzwu8mhc1/image/upload/v1595613175/20200720_165333_aqget3.jpg)
 
 Passion: Programming, math, tabletop games
 
 Project Contribution: Git Queen, SCRUM Leader, Frontend developement, I put the CUD in CRUD (created NewPost, EditPost, PostForm)
-

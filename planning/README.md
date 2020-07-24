@@ -85,20 +85,20 @@ Time frames are also key in the development cycle. You have limited time to code
 MVP
 | Component            | Priority | Estimated Time | Time Invetsted | Actual Time |
 | -------------------- | :------: | :------------: | :------------: | :---------: |
-| User Creates Profile |    H     |      6hrs      |      -hrs      |    5hrs     |
-| User can create post |    H     |      6hrs      |      -hrs      |    10hrs    |
-| Full CRUD for post   |    H     |      8hrs      |      -hrs      |    10hrs    |
-| Store user data      |    H     |      2hrs      |      -hrs      |    4hrs     |
-| Routes               |    H     |      5hrs      |      -hrs      |    9hrs     |
-| Total                |    H     |      27rs      |      -hrs      |    38hrs    |
+| User Creates Profile |    H     |      6hrs      |      -hrs      |    10hrs     |
+| User can create post |    H     |      6hrs      |      -hrs      |    20hrs    |
+| Full CRUD for post   |    H     |      8hrs      |      -hrs      |    25hrs    |
+| Store user data      |    H     |      2hrs      |      -hrs      |    8hrs     |
+| Routes               |    H     |      5hrs      |      -hrs      |    15hrs     |
+| Total                |    H     |      27rs      |      -hrs      |    78hrs    |
 
 POST MVP
 | Component             | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --------------------- | :------: | :------------: | :------------: | :---------: |
-| Link to another acct. |    M     |      5hrs      |      -hrs      |    10hrs    |
+| Link to another acct. |    M     |      5hrs      |      -hrs      |    17hrs    |
 | Privacy Setting       |    L     |      6rs       |      -hrs      |    hrs      |
 | Image upload          |    M     |      6rs       |      -hrs      |    hrs      |
-| Total                 |    H     |      17rs      |      -hrs      |    10hrs    |
+| Total                 |    H     |      17rs      |      -hrs      |    17hrs    |
 
 ## Additional Libraries
 
