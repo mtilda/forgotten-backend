@@ -68,7 +68,7 @@ const main = async () => {
     },
     {
       name: "Laptop",
-      icon: "computer",
+      icon: "laptop",
       value: 2000,
       transactionDate: 2020 - 04 - 26,
       returnDate: 2020 - 08 - 18,
