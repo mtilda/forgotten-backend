@@ -10,6 +10,7 @@ Passion: Debugging, linking backend, and surfing
 Project Contribution: setting up API, linking backend to React Native App, working on login page, icon scroller, and forms.
 
 
+
 ## Tyrone Pugh
 
 ![Photo of Ty Pugh](https://i.imgur.com/8AmBWqL.png)
@@ -25,6 +26,7 @@ forgotten handle: `@thedr`
 
 Passion: Styling, React, Food, Sleep
 Project Contribution: Header Design, Navigation Menu, Post Layout, Login Design, Feed Design
+
 
 
 
