@@ -18,5 +18,12 @@ forgotten handle: `@thedr`
 Passion: Styling, React, Food, Sleep
 Project Contribution: Header Design, Navigation Menu, Post Layout, Login Design, Feed Design
 
+## Kay
 
+forgotten handle: `@mxkay`
 
+![Photo of Kay](https://res.cloudinary.com/dzwu8mhc1/image/upload/v1595613175/20200720_165333_aqget3.jpg)
+
+Passion: Programming, math, tabletop games
+
+Project Contribution: Git Queen, SCRUM Leader, Frontend developement, I put the CUD in CRUD
