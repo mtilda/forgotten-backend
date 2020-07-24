@@ -7,3 +7,5 @@
 Passion: Debugging, linking backend, and surfing
 Project Contribution: setting up API, linking backend to React Native App, working on login page, icon scroller, and forms.
 
+
+
