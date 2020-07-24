@@ -16,7 +16,7 @@ Project Contribution: setting up API, linking backend to React Native App, worki
 ![Photo of Ty Pugh](https://i.imgur.com/8AmBWqL.png)
 
 Passion: Long walks on beach, reading and going out to dinner.
-Project Contribution: setting up API, linking backend to React Native App, Database models, post Crud funcationality, minor styling and debugging.
+Project Contribution: setting up API, linking backend to React Native App, Database models, deploying the database, post Crud funcationality, minor styling and debugging.
 
 ## Mohammad 
 
@@ -27,7 +27,14 @@ forgotten handle: `@thedr`
 Passion: Styling, React, Food, Sleep
 Project Contribution: Header Design, Navigation Menu, Post Layout, Login Design, Feed Design
 
+## Kay
+
+forgotten handle: `@mxkay`
 
 
+![Photo of Kay](https://res.cloudinary.com/dzwu8mhc1/image/upload/v1595613175/20200720_165333_aqget3.jpg)
 
+Passion: Programming, math, tabletop games
+
+Project Contribution: Git Queen, SCRUM Leader, Frontend developement, I put the CUD in CRUD (created NewPost, EditPost, PostForm)
 
