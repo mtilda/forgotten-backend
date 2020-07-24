@@ -2,16 +2,20 @@
 
 ## Project Links
 
-- [Heroku]()
-- [Netlify]()
+Backend via Heroku:
+- [Root](https://immense-tor-64805.herokuapp.com/api)
+- [Find/Create User](https://immense-tor-64805.herokuapp.com/api/user)
+- [Find/Create Transaction](https://immense-tor-64805.herokuapp.com/api/transaction)
+
 
 ## Project Description
 
-React Native tracking application for items/money you've lent.
+Our idea was to build a React Native tracking application for items/money you've lent. Often, when lending something to a friend, you forget about the item and never see it again. Hence, the name of our app, 'Forgotten'. With this app, we hope your items are never forgotten again. Style/structure was inspired by Venmo. 
 
 ## User Stories
 
-- As a user, I should be able to track items/money I've lent to others
+- As a user, I should be able to track items/money I've lent to others.
+- As a user, I should be able to see transactions of other people using the app.
 
 ## API
 
@@ -20,7 +24,7 @@ React Native tracking application for items/money you've lent.
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
 - [Mobile](https://res.cloudinary.com/dpn6ltns1/image/upload/v1595017437/Project%203/Screenshot_from_2020-07-17_16-21-51_bohmdt.png)
-Note* condense the nav links into the hamburger button. Remove the Create Post and use a Icon 'plus'
+
 
 - [React Architecture](https://res.cloudinary.com/dpn6ltns1/image/upload/v1595017445/Project%203/Screenshot_from_2020-07-17_16-21-22_frymj8.png)
 
@@ -81,29 +85,43 @@ Time frames are also key in the development cycle. You have limited time to code
 MVP
 | Component            | Priority | Estimated Time | Time Invetsted | Actual Time |
 | -------------------- | :------: | :------------: | :------------: | :---------: |
-| User Creates Profile |    H     |      6hrs      |      -hrs      |    hrs      |
-| User can create post |    H     |      6hrs      |      -hrs      |    hrs      |
-| Full CRUD for post   |    H     |      8hrs      |      -hrs      |   hrs       |
-| Store user data      |    H     |      2hrs      |      -hrs      |   hrs       |
-| Routes               |    H     |      5hrs      |      -hrs      |    hrs      |
-| Total                |    H     |      27rs      |      -hrs      |     hrs     |
+| User Creates Profile |    H     |      6hrs      |      -hrs      |    5hrs     |
+| User can create post |    H     |      6hrs      |      -hrs      |    10hrs    |
+| Full CRUD for post   |    H     |      8hrs      |      -hrs      |    10hrs    |
+| Store user data      |    H     |      2hrs      |      -hrs      |    4hrs     |
+| Routes               |    H     |      5hrs      |      -hrs      |    9hrs     |
+| Total                |    H     |      27rs      |      -hrs      |    38hrs    |
 
 POST MVP
 | Component             | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --------------------- | :------: | :------------: | :------------: | :---------: |
-| Link to another acct. |    M     |      5hrs      |      -hrs      |    hrs      |
+| Link to another acct. |    M     |      5hrs      |      -hrs      |    10hrs    |
 | Privacy Setting       |    L     |      6rs       |      -hrs      |    hrs      |
-| Image upload          |    M     |      6rs       |      -hrs      |     hrs     |
-| Total                 |    H     |      17rs      |      -hrs      |     hrs     |
+| Image upload          |    M     |      6rs       |      -hrs      |    hrs      |
+| Total                 |    H     |      17rs      |      -hrs      |    10hrs    |
 
 ## Additional Libraries
 
-React Native, Expo
+React Native Elements, Expo, FontAwesome 
 
 ## Code Snippet
 
 Code snippet you're proud of:
+Implemented the React Hook useContext to more efficiently pass props throughout the app.
+
+```
+import { createContext } from 'react';
+
+// set the defaults
+const UserDataContext = createContext({
+    userData: {email: '', handle: '', name: '', _id: ''},
+    setUserData: () => {}
+});
+
+export default UserDataContext;
 
 ```
 
-```
+## Hurdle
+
+PostForm was a shared component, so linking it to EditPost and NewPost was challenging. PostForm needed to display different data based on what the user wanted to accomplish. The solution was to build and add buttons that toggled back and forth between different user options. 
